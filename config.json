@@ -1,18 +1,15 @@
 {
-    "httpConfig":
-    {
-        "port": 12776,
+    "httpConfig": {
+        "port": 80,
         "host": "0.0.0.0"
     },
-    "httpsConfig":
-    {
+    "httpsConfig": {
         "port": 12777,
         "host": "0.0.0.0",
         "ssl_key_file": "ssl.key",
         "ssl_cert_file": "ssl.crt"
     },
-    "maxPayload": 
-        1048576,
+    "maxPayload": 1048576,
     "apps": [
         {
             "name": "Test",
